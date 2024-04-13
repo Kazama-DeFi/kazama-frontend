@@ -1,0 +1,14 @@
+{
+  "extends": "@kazamaswap/tsconfig/nextjs.json",
+  "include": ["next-env.d.ts"],
+  "compilerOptions": {
+    "target": "ES2015",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./*"],
+      "@kazamaswap/uikit": ["../../packages/uikit/src/index.ts"],
+      "@kazamaswap/uikit/*": ["../../packages/uikit/src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

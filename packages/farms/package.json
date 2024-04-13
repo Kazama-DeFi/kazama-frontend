@@ -1,0 +1,28 @@
+{
+  "name": "@kazamaswap/farms",
+  "version": "1.0.24",
+  "sideEffects": false,
+  "private": true,
+  "scripts": {
+    "build": "npx tsx scripts/build.ts",
+    "test": "vitest --run"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "tsx": "^3.12.1",
+    "wrangler": "2.20.1"
+  },
+  "dependencies": {
+    "@kazamaswap/sdk": "workspace:*",
+    "@kazamaswap/swap-sdk-core": "workspace:*",
+    "@kazamaswap/token-lists": "workspace:*",
+    "@kazamaswap/tokens": "workspace:*",
+    "@kazamaswap/utils": "workspace:*",
+    "@kazamaswap/v3-sdk": "workspace:*",
+    "@kazamaswap/chains": "workspace:*",
+    "bignumber.js": "^9.0.0",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "viem": "1.15.1"
+  }
+}

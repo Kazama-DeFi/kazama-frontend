@@ -1,0 +1,30 @@
+{
+  "name": "@kazamaswap/ifos",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "private": true,
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@kazamaswap/sdk": "workspace:*",
+    "@kazamaswap/tokens": "workspace:*",
+    "@kazamaswap/utils": "workspace:*",
+    "viem": "^1.15.1",
+    "wagmi": "^1.4.3"
+  },
+  "dependencies": {
+    "@layerzerolabs/scan-client": "^0.0.6",
+    "@kazamaswap/chains": "workspace:*",
+    "bignumber.js": "^9.0.0"
+  },
+  "devDependencies": {
+    "@kazamaswap/sdk": "workspace:*",
+    "@kazamaswap/tokens": "workspace:*",
+    "@kazamaswap/tsconfig": "workspace:*",
+    "@kazamaswap/utils": "workspace:*",
+    "viem": "1.15.1",
+    "wagmi": "1.4.3"
+  }
+}

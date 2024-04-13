@@ -1,0 +1,26 @@
+const SPACENAUT = 15000000;
+const KRAKEN = 10000000;
+const WHALE = 7000000;
+const SHARK = 5000000;
+const ORCA = 3000000;
+const DOLPHIN = 2000000;
+const TURTLE = 1000000;
+const FISH = 700000;
+const CRAB = 500000;
+const SHRIMP = 300000;
+const HOLDER = 1;
+
+
+export { 
+SPACENAUT, 
+KRAKEN, 
+WHALE, 
+SHARK, 
+ORCA, 
+DOLPHIN, 
+TURTLE, 
+FISH, 
+CRAB, 
+SHRIMP, 
+HOLDER
+}

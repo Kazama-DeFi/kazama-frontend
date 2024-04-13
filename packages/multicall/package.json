@@ -1,0 +1,36 @@
+{
+  "name": "@kazamaswap/multicall",
+  "version": "3.2.3",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest --run",
+    "coverage": "vitest run --coverage",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "dependencies": {
+    "@kazamaswap/sdk": "workspace:*",
+    "@kazamaswap/chains": "workspace:*",
+    "viem": "1.15.1"
+  },
+  "devDependencies": {
+    "@kazamaswap/tsconfig": "workspace:*",
+    "@kazamaswap/utils": "workspace:*",
+    "tsup": "^6.7.0"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  }
+}

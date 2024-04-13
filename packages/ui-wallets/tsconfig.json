@@ -1,0 +1,10 @@
+{
+  "extends": "@kazamaswap/tsconfig/react-library",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@kazamaswap/uikit": ["../../packages/uikit/src/index.ts"],
+      "@kazamaswap/uikit/*": ["../../packages/uikit/src/*"]
+    }
+  }
+}
